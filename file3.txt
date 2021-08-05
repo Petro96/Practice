@@ -1,0 +1,4 @@
+# !/bin.bash
+# 05.08.2021.
+
+I learning to use git. 
