@@ -1,9 +1,20 @@
 
 
+class MyApp:
 
-def function():
+    def __init__(self,greet):
+
+        self.greeting = greet
+
+
+    def function(self):
     
 
-    print("Hello from example1")
+        print(self.greeting)
 
-function()
+
+
+
+
+myObject = MyApp("Hello from class")
+myObject.function()
